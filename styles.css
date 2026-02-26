@@ -435,39 +435,93 @@ a{color:inherit;text-decoration:none}
 .floating-cta:hover{ transform: translateY(-1px); filter: brightness(1.02); opacity: 100%; }
 
 @media (max-width: 680px){
+  .container{max-width: 90%;
+  }
+
+  #sobre & #para-escritorios & #para-empresas & #metodo & #contato{
+    padding: 20px 0;  
+  }
+
+  section {
+    text-align: justify;
+  }
 
   .hero {
     padding: 5px 0;  
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .pill{
+    text-align: center;
+    padding: 3px 6px;
+  }
+
+  .hero__meta {
+    text-align: left;
   }
 
   .hero__card {
     display: none;
   }
 
+  .two-col{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  gap: 10;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
 
-  .container{width: 85%;
+/* Buttons */
+  .btn{
+    display: flex;
   }
+
+
+  .callout{
+  width: 100%;
+  text-align: center;
+  align-items:center;
+}
 
   .floating-cta{
     display: none;
   }
 
   .footer__brand {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  
-}
+    display: none;
+  }
 
   .footer__links {
     display: none; 
   }
 
+  .footer__copy {
+    text-align: center;
+  }
+
+  .apres {
+    font-size: 10px;
+  }
+
   .footer{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .brand__mark {
+    display: none;
   }
 }
 
