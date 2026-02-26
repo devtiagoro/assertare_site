@@ -2,17 +2,19 @@
 const WHATS_NUMBER = "5534991446022";
 
 const WPP_MESSAGES = {
-  menu: "Olá! Vim pelo site da Assertare e gostaria de agendar uma conversa sobre BPO financeiro.",
-  hero: "Olá! Vi o site da Assertare e quero conversar sobre BPO financeiro e estruturação do financeiro. Pode me fazer algumas perguntas para entender meu cenário?",
+  menu: "Olá! Gostaria de agendar uma conversa sobre BPO financeiro.",
+  hero: "Olá! Quero conversar sobre BPO financeiro e estruturação do financeiro. Pode me fazer algumas perguntas para entender meu cenário?",
   diagnostico: "Olá! Quero agendar um diagnóstico rápido do meu cenário de BPO financeiro. Sou [escritório contábil/empresa].",
   sobre: "Olá! Gostaria de entender como a Assertare pode ajudar com BPO financeiro (processo, rotina e entrega gerencial). Podemos conversar?",
   escritorios: "Olá! Sou de um escritório contábil e quero estruturar/implantar BPO financeiro com padrão de onboarding e fechamento. Podemos conversar?",
   empresas: "Olá! Sou empresa e quero organizar o financeiro com BPO financeiro (rotina + DRE e fluxo de caixa). Podemos conversar?",
   metodo: "Olá! Quero entender o método de implantação de BPO financeiro (90 dias) e como funciona na prática. Podemos conversar?",
   faq: "Olá! Estou pesquisando sobre BPO financeiro e queria entender como funcionaria no meu cenário. Podemos conversar?",
-  contato: "Olá! Vim pelo site assertare.com.br e gostaria de agendar uma conversa. Sou [escritório contábil/empresa].",
-  "mensagem-sugerida": "Olá, vi a Assertare. Sou um [escritório contábil/empresa] e quero entender como funciona o BPO financeiro no meu caso.",
-  floating: "Olá! Vim pelo site da Assertare e gostaria de agendar uma conversa. Sou [escritório contábil/empresa]."
+  contato: "Olá! Gostaria de agendar uma conversa. Sou [escritório contábil/empresa].",
+  "mensagem-sugerida": "Olá, Quero entender como funciona o BPO financeiro no meu caso.",
+  floating: "Olá! Gostaria de agendar uma conversa.",
+  "contato-escritorio": "Olá! Sou de um escritório contábil e gostaria de conversar sobre estruturação/implantação de BPO financeiro (onboarding, fechamento e treinamento).",
+  "contato-empresa": "Olá! Sou empresa e gostaria de conversar sobre operação de BPO financeiro (rotina, conciliação, DRE e fluxo de caixa).",
 };
 
 function buildWhatsLink(phone, text) {

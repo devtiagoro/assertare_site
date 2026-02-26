@@ -198,11 +198,13 @@ a{color:inherit;text-decoration:none}
   background: linear-gradient(180deg, rgba(17,22,37,.7), rgba(17,22,37,.38));
   box-shadow: var(--shadow);
 }
+
 .hero__card{position:relative}
 .card h3{margin:0 0 10px; font-size:18px;}
 .card p{margin:0 0 12px; color: rgba(233,237,247,.78); line-height:1.6;}
 .card__actions{display:flex; gap:10px; flex-wrap:wrap; margin-top:10px;}
 .card__note{margin-top:12px; font-size:12px; color: rgba(181,189,212,.9);}
+
 
 /* Strip */
 .strip{
@@ -273,8 +275,10 @@ a{color:inherit;text-decoration:none}
   display:grid;
   grid-template-columns: 1fr 1fr;
   gap:12px;
-  margin-top:10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
+
 .panel{
   padding:16px;
   border-radius:16px;
@@ -422,11 +426,13 @@ a{color:inherit;text-decoration:none}
   color: #07101f;
   font-weight: 700;
   font-size: 14px;
+  opacity: 80%;
+  
 
   box-shadow: 0 18px 40px rgba(0,0,0,.35);
   transition: transform .12s ease, filter .12s ease;
 }
-.floating-cta:hover{ transform: translateY(-1px); filter: brightness(1.02); }
+.floating-cta:hover{ transform: translateY(-1px); filter: brightness(1.02); opacity: 100%; }
 
 @media (max-width: 680px){
   .floating-cta{
@@ -434,4 +440,27 @@ a{color:inherit;text-decoration:none}
     bottom: 12px;
     padding: 12px 14px;
   }
+}
+
+/* Contato centralizado */
+.contact-center{
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.contact-center__text{
+  margin: 10px auto 0;
+}
+
+.contact-center__buttons{
+  margin-top: 18px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-center__meta{
+  margin-top: 14px;
 }
